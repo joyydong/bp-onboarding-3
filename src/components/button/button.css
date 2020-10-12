@@ -1,0 +1,52 @@
+.App-button {
+    width: 300px;
+    height: 45px;
+    display: flex;
+    border-radius: 25px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+#button-green {
+    border: 3px solid #29bf89;
+    background-color: #29bf89;
+}
+
+#button-white {
+    background-color: white;
+    border: 3px solid white;
+}
+
+#button-clear {
+    border: 3px solid white;
+    background-color: transparent;
+}
+
+#button-clearAlt {
+    border: 3px solid #29bf89;
+    background-color: transparent;
+}
+
+.App-button-text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+}
+
+#button-text-white {
+    color: white;
+}
+
+#button-text-green {
+    color: #29bf89;
+}
+
+#button-text-grey {
+    color: #cfd8dc;
+}
